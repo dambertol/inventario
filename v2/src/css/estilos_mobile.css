@@ -1,0 +1,32 @@
+  .input-transaccion {
+    width: 75% !important;
+    padding: 10px !important;
+    margin-bottom:10px; 
+    min-width:50%'
+  }
+  .accion-buscar {
+    width: 80% !important;
+  }
+  .container-postulantes > table {
+    width: 99% !important;  
+  }
+  @media (max-width: 460px){
+    .datos-transaccion {
+        padding-left: 10px;
+        display:none;
+    }
+    .first { width: 3% ;}
+  }
+  .elementos {
+    padding: 10px 1px !important;
+    text-align: center !important;
+  }  
+  .input-carga {
+    width: 50px !important;
+    }
+  
+  .td_title{padding: 10px;background-color: #e9f1f4;}  
+  
+  tbody{
+      width: 100%;
+  }

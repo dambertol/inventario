@@ -1,0 +1,170 @@
+body, html {
+  height: 100%; 
+}
+
+	.limiter{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.container-login100 {
+  width: 98%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.wrap-login100 {
+  width: 500px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 55px;
+}
+.login100-form-title {
+  display: block;
+  font-size: 39px;
+  color: #333;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.wrap-input100 {
+  width: 100%;
+  position: relative;
+  border-bottom: 2px solid #d9d9d9;
+}
+.label-input100 {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.5;
+  padding-left: 7px;
+}
+input::placeholder {
+  color: #adadad;
+}
+.input100 {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.2;
+  display: block;
+  width: 90%;
+  height: 55px;
+  background: 0 0;
+  padding: 0 7px 0 43px;
+}
+input {
+  outline: none;
+  border: none;
+}
+button, input {
+  overflow: visible;
+}
+.focus-input100::after {
+  content: attr(data-symbol);
+  font-family: Material-Design-Iconic-Font;
+  color: #adadad;
+  font-size: 22px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: calc(100% - 20px);
+  bottom: 0;
+  left: 0;
+  padding-left: 13px;
+  padding-top: 3px;
+}
+
+
+.input-lock{
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='1em' fill-opacity='0.5' viewBox='0 0 448 512'%3E%3C!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --%3E%3Cpath d='M400 224h-24v-72C376 68.2 307.8 0 224 0S72 68.2 72 152v72H48c-26.5 0-48 21.5-48 48v192c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V272c0-26.5-21.5-48-48-48zm-104 0H152v-72c0-39.7 32.3-72 72-72s72 32.3 72 72v72z'/%3E%3C/svg%3E");
+    position: absolute;
+    top: 43px;
+}
+
+.input-user{
+
+content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='1em' fill-opacity='0.5' viewBox='0 0 448 512'%3E%3C!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --%3E%3Cpath d='M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z'/%3E%3C/svg%3E"
+  );
+    position: absolute;
+    top: 43px;
+}
+
+.input-dni{
+
+    content: url("id-card.svg");
+    position: absolute;
+    top: 38px;
+    width: 22px;
+    opacity: 0.6;
+}
+
+
+.focus-input100::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #7f7f7f;
+  -webkit-transition: all .4s;
+  -o-transition: all .4s;
+  -moz-transition: all .4s;
+  transition: all .4s;
+}
+
+.login100-form-bgbtn{
+	padding: 20px;
+}
+
+.wrap-login100-form-btn{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 40px;
+}
+
+.login100-form-btn {
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.2;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  width: 100%;
+  height: 50px;
+  background-color: #4a6891;
+  border: 0px;
+  border-radius: 6px;
+  width: 70%;
+}
+
+
+@media (max-width: 460px) {
+  .wrap-login100 {
+    padding: 25px;
+    width: 80%;
+  }
+  
+
+}

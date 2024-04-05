@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteCond %{REQUEST_URI}  !(\.png|\.jpg|\.webp|\.gif|\.jpeg|\.zip|\.css|\.svg|\.js|\.pdf)$
+
+php_value upload_max_filesize 10M
+php_value post_max_size 10M
+<FilesMatch "(?i)\.(jpg|png|pdf)$">
+    # Cambiar 'example.com' por el nombre de tu dominio o IP si es necesario
+    Require all granted
+</FilesMatch>
+RewriteRule (.*) index.php [QSA,L]
